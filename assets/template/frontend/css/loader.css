@@ -1,0 +1,101 @@
+.loader {
+  position: fixed;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+  background: #e8f0f2;
+}
+.loader .auto-center {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.loader .bounce-conteneur {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.loader .bounce-conteneur .bounce {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  background: #c5322d;
+  border-radius: 100%;
+  margin: 2px;
+}
+.loader .bounce-conteneur .bounce-left {
+  animation: left 1.5s ease infinite;
+}
+.loader .bounce-conteneur .bounce-center {
+  animation: center 1.5s ease infinite;
+}
+.loader .bounce-conteneur .bounce-right {
+  animation: right 1.5s ease infinite;
+}
+@keyframes left {
+  0%,
+  50%,
+  75%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+  }
+}
+@keyframes center {
+  0%,
+  25%,
+  75%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+@keyframes right {
+  0%,
+  25%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes left {
+  0%,
+  50%,
+  75%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes center {
+  0%,
+  25%,
+  75%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes right {
+  0%,
+  25%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+}
