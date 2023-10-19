@@ -68,3 +68,9 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+***************
+ScreenCapture
+***************
+
+![alt text](https://github.com/hasbihasbullh/LuckyKamera/blob/master/screencapture.png?raw=true)
