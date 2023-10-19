@@ -73,4 +73,4 @@ contributors to the CodeIgniter project and you, the CodeIgniter user.
 ScreenCapture
 ***************
 
-![Homepage](./screencapture.png.png)
+![ScreenShot](https://github.com/hasbihasbullh/LuckyKamera/blob/master/screencapture.png)
