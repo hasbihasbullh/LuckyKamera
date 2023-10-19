@@ -73,4 +73,4 @@ contributors to the CodeIgniter project and you, the CodeIgniter user.
 ScreenCapture
 ***************
 
-![image.png](./screencapture.png)
+![Homepage](./screencapture.png.png)
